@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: "Fira Sans", serif; */
+
+
+
+
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(245, 245, 245);
+    padding: 12px 80px 12px 80px;
+    align-items: center;
+    width: 1280px;
+    margin: 10px 80px;
+
+    
+}
+.nav-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+nav ul li{
+    list-style: none;}
+    .green-1{
+        color: rgb(0, 106, 80);
+font-family: Fira Sans;
+font-size: 10px;
+font-weight: 600;
+line-height: 12px;
+border-radius: 5px;
+background: rgb(9, 161, 92);
+ margin: 0px 10px;
+ padding:8px 16px 8px 16px ;
+ border-style: none;
+}
+.banner{
+
+position: static;
+width: 1280px;
+height: 280px;
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+align-items: center;
+gap:32;
+padding: 40px 50px 40px 50px;
+flex: none;
+margin: 40px 80px;
+border-radius:12px;
+background: rgb(198, 228, 214);
+}
+.banner-greeting{
+position: static;
+width: 311px;
+height: 14px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 8px;;
+padding: 0px;
+margin: 8px 0px;
+color:rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 12px;
+font-weight: 250;
+text-align: left;
+}
+.banner-description{
+position: static;
+width: 311px;
+height: 100px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 8px;
+padding: 0;
+flex: none;
+margin: 8px 0px;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 28px;
+font-weight: 700;
+line-height: 33px;
+letter-spacing: 0%;
+text-align: left;
+}
+.green-2{
+position: static;
+width: 101px;
+height: 11px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 14;
+padding: 8px 17px 8px 17px;
+flex: none;
+margin: 0px 14px;
+border-radius: 4px;
+
+background: rgb(0, 106, 80);
+
+width:135px;
+height: 28px;
+margin: 12px 0px;
+border-style: none;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size:8px;
+font-weight: 600;
+line-height: 11px;
+text-align: left;
+}
+.banner-profile-pic{
+    width: 360px;
+    margin: 10px;
+}
