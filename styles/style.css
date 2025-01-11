@@ -4,7 +4,6 @@
 
 
 
-
 /* nav styles */
 nav{
     display: flex;
@@ -294,3 +293,73 @@ padding:8px 16px 8px 16px ;
 border-style: none;
 background-color: rgb(255, 194, 57);
 }
+.plans-yunus{ 
+position: static;
+width: 1280px;
+height: 256px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 12;
+padding: 24px 12px 24px 12px;
+margin: 0px 24px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+background-image: url(../images/quote-bg.png);
+background-repeat: no-repeat;
+}
+
+.signature{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+margin: 4px 0px;
+}
+
+
+
+
+
+
+.plans{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+
+    width: 1232px;
+height: 96px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap:6;
+padding: 0px;
+
+margin: 12px 0px;
+    }
+.satellite{
+position: static;
+width: 1280px;
+height: 120px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 0px;
+margin: 16px 8px;
+}
+.satellite-title{
+    margin-bottom: 40px;
+}
+
