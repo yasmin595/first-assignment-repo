@@ -414,17 +414,13 @@ margin: 6px 40px;
 background: rgb(0, 106, 80);
 }
 .satellite-history2{
+width: 1280px;
+height: 402px;
 display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: center;
-gap: 32;
-padding: 48px;
-
-margin: 24px 0px;
+gap: 16;
 }
 .st-pic-2{
-    margin: 6px 40px;
+    margin: 6px 0px;
 }
 .cards-title{
     text-align: center;
@@ -469,8 +465,7 @@ background-color:bisque;
 .special-card{
     background-color: rgb(198, 228, 214);
 }
-.box1{
-    /* Frame 2087325514 */
+.form1{
 position: static;
 width: 1032px;
 height: 64px;
@@ -479,13 +474,88 @@ gap: 24;
 padding: 20px 40px 20px 40px;
 flex-grow: 0;
 margin: 32px 0px;
+color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+width: 187px;
+height: 24;
+gap: 12;
+margin: 12px 0px;
 }
 .amount-btn{
-justify-content: center;
 align-items: center;
 gap: 48;
 padding: 17px 34px 17px 34px;
 margin: 32px 0px;
 
 background: rgb(0, 106, 80);
+
+}
+.last-container{
+    display: flex;
+}
+.form2{
+position: static;
+width: 600px;
+height: 28px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 12;
+padding: 9px 20px 9px 20px;
+margin: 30px 0px;
+color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+border-style: none;
+}
+.text-last{
+    text-align: center;
+    padding: 10px 300px;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+.last-description{
+position: static;
+width: 622px;
+height: 48px;
+text-align: center;
+gap: 8;
+margin: 16px 40px;
+padding: 10px 300px;
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+.subs-container{
+position: static;
+width: 1280px;
+height: 395px;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 64;
+padding: 80px 100px 80px 100px;
+margin: 80px 0px;
+border-radius: 12px;
+
+background: rgb(198, 228, 214);
 }
